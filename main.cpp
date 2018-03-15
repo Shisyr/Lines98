@@ -207,7 +207,7 @@ void button(Event& event){
 int main(int, char const**)
 {
     Font font;
-    if(!font.loadFromFile("/Users/Mukhamed/Downloads/fonts/Black.ttf")){
+    if(!font.loadFromFile("/Users/Mukhamed/Downloads/fonts/Black.ttf")){ // write your directory for format of string
         
     }
     text.setFont(font);
